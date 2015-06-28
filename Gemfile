@@ -35,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem "minitest"
 end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
